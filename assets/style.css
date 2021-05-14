@@ -1,7 +1,8 @@
+
 body {
     display: flex;
     flex-direction: column;
-    
+    background-color:bisque;
 }
 header {
     display: flex;
@@ -19,6 +20,13 @@ h1 {
 
 h2 {
     display: flex;
+    font-size: xx-large;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    padding-top: 30px;
     align-items: center;
 }
 
@@ -43,8 +51,55 @@ nav ul :hover {
     color: red;
 }
 
-.hero-image {
-    
-    height: 250px;
+.hero {
+    height: 300px;
     width: 100% ;
+    margin-bottom:25px;
+    background-image: url("../assets/images/galaxy-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.content-all{
+    margin-left: 25px;
+}
+.content-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+
+#about-me-figure {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.about-me-content p {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    max-width: 90%;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.about-me-content img {
+    display: flex;
+    max-width: 90%;
+    max-height: 90%;
+
+}
+
+.my-work-content {
+    padding-top: 15px;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
