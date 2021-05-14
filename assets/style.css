@@ -8,8 +8,7 @@ header {
     padding:5px;
     align-items: center;
     justify-content: space-between;
-    background-color: cornflowerblue;
-    
+    background-color: black;    
 }
 h1 {
     display: flex;
@@ -18,10 +17,14 @@ h1 {
     color: white;
 }
 
+h2 {
+    display: flex;
+    align-items: center;
+}
+
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 } 
 
 nav ul {
@@ -38,4 +41,10 @@ nav ul li {
 
 nav ul :hover {
     color: red;
+}
+
+.hero-image {
+    
+    height: 250px;
+    width: 100% ;
 }
