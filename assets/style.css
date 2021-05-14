@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+header {
+    display: flex;
+    padding:5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+nav ul li {
+    background-color: unset;
+    font-weight: bold;
+    text-decoration: none;
+
+} 
+
+nav ul :hover {
+    color: red;
+}

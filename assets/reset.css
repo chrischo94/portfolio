@@ -14,4 +14,14 @@
     font-family: sans-serif;
   }
   
-  
+  h2 {
+    font-size: 100%;
+  }
+
+
+
+  ol,
+  ul {
+    list-style: none;
+  }
+    
