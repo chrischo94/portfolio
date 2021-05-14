@@ -26,7 +26,6 @@ h2 {
 }
 
 h3 {
-    padding-top: 30px;
     align-items: center;
 }
 
@@ -64,14 +63,15 @@ nav ul :hover {
 .content-all{
     margin-left: 25px;
 }
-.content-title {
+.section-title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 80%;
+    padding-top: 25px;
 }
 
-
+/*about me*/
 #about-me-figure {
     display:flex;
     justify-content: space-between;
@@ -92,14 +92,127 @@ nav ul :hover {
     max-height: 90%;
 
 }
-
-.my-work-content {
-    padding-top: 15px;
+/*my work*/
+.work-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    length: 300px;
+    
 }
 
-.contact-me {
+#horiseon {
+    display:flex;
+}
+
+#my-work {
+    background-color: rgb(252, 189, 113);
+}
+
+.work-title {
+    display: inline-block;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+
+}
+.work-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px;
+    max-width: 75%;
+    margin: 15px;
+}
+.work-title h3 {
+    font: white;
+    font-size:medium;
+}
+.work-title h4 {
+    font-size: smaller;
+}
+
+
+#horiseon {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    width: 300px;
+    height: 300px;
+    margin:5px;
+
+}
+
+#fanpage {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    width: 300px;
+    height: 300px;
+    margin:5px;
+}
+.work-content img{
+    height: 300px;
+    width: 300px;
+}
+
+#first-project{
+    display: flex;
+    width: 800px;
+    height: 300px;
+}
+
+/*contact section*/ 
+#contact-me {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 85%;
+    padding-bottom: 30px;
     
 }
+
+.contact-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    background-color: bisque;
+    font-size: large;
+    padding-top: 15px;
+
+}
+.contact-section-content p {
+    font-size: x-large;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+/*for smaller screens*/ 
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 768px;
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        flex-direction: column;
+    }
+    
+    main {
+        max-width: 414px;
+}
+
+@media screen and (max-width: 375px) {
+    header {
+      flex-direction: column;
+}
+  
+    main {
+      max-width: 375px;
